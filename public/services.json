@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "ORAL HYGIENIST",
+    "picture": "https://i.ibb.co/ChQd5WJ/service-01.jpg",
+    "price": 3900,
+    "about": "Maecenas facilisis metus sed leo aliquam, a accumsan dui posuere. In aliquet pharetra venenatis. Ut ac justo et tortor pharetra dignissim condimentum feugiat velit. Suspendisse potenti."
+  },
+  {
+    "id": "2",
+    "name": "LABOLATORY TESTS",
+    "picture": "https://i.ibb.co/YjCtg3t/service-02.jpg",
+    "price": 3100,
+    "about": "A medical procedure that involves testing a sample of blood, urine, or other substance from the body. Laboratory tests can help determine a diagnosis, plan treatment, check to see if treatment is working, or monitor the disease over time"
+  },
+  {
+    "id": "3",
+    "name": "HEALTH LIFESTYLE",
+    "picture": "https://i.ibb.co/dj39Y3Q/service-03.jpg",
+    "price": 3600,
+    "about": "Good health is not just the absence of disease or illness, it is a state of complete physical, mental and social well-being. This means eating a balanced diet, getting regular exercise, avoiding tobacco and drugs and getting plenty of rest."
+  },
+  {
+    "id": "4",
+    "name": "ARYTHMIA TREATMENT",
+    "picture": "https://i.ibb.co/PmPktBV/service-04.jpg",
+    "price": 3800,
+    "about": "Treatment for heart arrhythmias may include medications, therapies such as vagal maneuvers, cardioversion, catheter procedures or heart surgery."
+  },
+  {
+    "id": "5",
+    "name": "PHYSICAL EXAMINATION",
+    "picture": "https://i.ibb.co/D8zd62m/service-05.jpg",
+    "price": 2400,
+    "about": "A physical examination is a routine test your primary care provider (PCP) performs to check your overall health. A PCP may be a doctor, a nurse practitioner, or a physician assistant."
+  },
+  {
+    "id": "6",
+    "name": "DIET ORGANISATION",
+    "picture": "https://i.ibb.co/MGQLPJT/service-06.jpg",
+    "price": 2600,
+    "about": "A healthy diet helps to protect against malnutrition in all its forms, as well as noncommunicable diseases (NCDs), including such as diabetes, heart disease, stroke and cancer."
+  }
+]
