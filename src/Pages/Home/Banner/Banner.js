@@ -21,7 +21,7 @@ const Banner = () => {
                 />
                 <Carousel.Caption>
                     <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <p>The best doctor I have ever met!</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -33,7 +33,7 @@ const Banner = () => {
 
                 <Carousel.Caption>
                     <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Very nice and kind person with huge knowledge!</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -46,7 +46,7 @@ const Banner = () => {
                 <Carousel.Caption>
                     <h3>Third slide label</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        Great specialist with enormous experience!
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
