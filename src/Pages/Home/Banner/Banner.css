@@ -1,0 +1,10 @@
+.banner-img {
+    height: 585px;
+}
+
+/* responsive */
+@media only screen and (max-width: 576px) {
+    .banner-img {
+        height: 200px;
+    }
+}
