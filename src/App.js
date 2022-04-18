@@ -11,6 +11,7 @@ import Register from "./Pages/Login/Register/Register";
 import ServiceDetails from "./Pages/ServiceDetails/ServiceDetails";
 import MyCheckout from "./Pages/MyCheckout/MyCheckout";
 import RequireAuth from "./Pages/Login/RequireAuth/RequireAuth";
+import Blogs from "./Pages/Blogs/Blogs";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/services" element={<Services></Services>}></Route>
+        <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="service/:serviceId" element={<ServiceDetails></ServiceDetails>}></Route>
         <Route path="/checkout" element={<RequireAuth>
           <MyCheckout></MyCheckout>
