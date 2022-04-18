@@ -1,10 +1,28 @@
 # My website Name is : Medi pharm
 
-My website live link[Medi pharm](https://medi-pharm.web.app/).
+My website live link[Medi pharm ](https://medi-pharm.web.app/).
 
-## Available Scripts
+## My website's different features and functionality
 
-In the project directory, you can run:
+- Navbar for jump one feature to another feater.
+- add react bootstrap carousel
+- add services section with button
+- click the button, it jump to the proceed button
+- Proceed button protected by private router
+- add blogs section
+- add about section
+- add login and register section
+
+## List of technologies
+
+- react
+- react bootstrap
+- react router
+- react router hook
+- firebase
+- react firebase hook
+- bootstrap
+- css
 
 ### `npm start`
 
