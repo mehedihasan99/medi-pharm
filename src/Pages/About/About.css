@@ -1,0 +1,13 @@
+.about-container img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+.about-container {
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
