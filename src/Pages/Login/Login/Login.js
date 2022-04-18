@@ -14,6 +14,13 @@ const Login = () => {
     const navigate = useNavigate();
     let location = useLocation();
     let from = location.state?.from?.pathname || "/";
+    let elementError;
+    if (error) {
+        elementError = <div>
+            <p>Error: {error.message}</p>
+        </div>
+
+    }
     if (user) {
         navigate(from, { replace: true });
     }
@@ -37,6 +44,7 @@ const Login = () => {
                 <Link className='goToRegister' to='/register'>New to medi pharm? <span className='create-account'> Create a account</span></Link>
                 <MysocialLogin></MysocialLogin>
             </form>
+            <p>{elementError}</p>
 
         </div>
     );
