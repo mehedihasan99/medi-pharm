@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# My website Name is : Medi pharm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My website live link[Medi pharm](https://medi-pharm.web.app/).
 
 ## Available Scripts
 
