@@ -1,0 +1,29 @@
+.line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.left-line {
+    width: 40%;
+    height: 1px;
+    margin-right: 5px;
+    background: gray;
+}
+
+.right-line {
+    width: 40%;
+    margin-left: 5px;
+    height: 1px;
+    background: gray;
+}
+
+.btn-group {
+    display: flex;
+    margin: 0 auto;
+}
+
+.googleLogo {
+    width: 40px;
+}

@@ -3,6 +3,7 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Login.css'
 import auth from '../../../firebase.init';
+import MysocialLogin from '../MySocialLogin/MysocialLogin';
 const Login = () => {
     const [
         signInWithEmailAndPassword,
@@ -34,6 +35,7 @@ const Login = () => {
                 <input ref={passwordRef} type="password" name="password" id="" placeholder='Enter Your Password' required />
                 <input type="submit" value="Login" />
                 <Link className='goToRegister' to='/register'>New to medi pharm? <span className='create-account'> Create a account</span></Link>
+                <MysocialLogin></MysocialLogin>
             </form>
 
         </div>

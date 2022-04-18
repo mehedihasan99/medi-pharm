@@ -1,7 +1,7 @@
 .main-container {
     display: flex;
     margin-top: 50px;
-    width: 400px;
+    width: 600px;
     justify-content: center;
 }
 
@@ -16,7 +16,7 @@
     border-radius: 10px;
     margin: 30px;
     padding: 10px;
-    width: 400px;
+    width: 600px;
 }
 
 .form-container input[type=email],

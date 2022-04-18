@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
+import MysocialLogin from '../MySocialLogin/MysocialLogin';
 import './Register.css'
 const Register = () => {
     const [
@@ -32,6 +33,7 @@ const Register = () => {
                 <input ref={passwordRef} type="password" name="password" id="" placeholder='Enter Your Password' required />
                 <input type="submit" value="Login" />
                 <Link className='goToLogin' to='/login'>Already have a account? <span className='create-account'>Login</span></Link>
+                <MysocialLogin></MysocialLogin>
             </form>
 
         </div>
