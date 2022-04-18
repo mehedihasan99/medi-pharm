@@ -42,9 +42,11 @@ const Login = () => {
                 <input ref={passwordRef} type="password" name="password" id="" placeholder='Enter Your Password' required />
                 <input type="submit" value="Login" />
                 <Link className='goToRegister' to='/register'>New to medi pharm? <span className='create-account'> Create a account</span></Link>
+                <p className='text-center text-danger mt-2'>{elementError}</p>
                 <MysocialLogin></MysocialLogin>
+
             </form>
-            <p>{elementError}</p>
+
 
         </div>
     );
