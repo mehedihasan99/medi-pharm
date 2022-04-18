@@ -1,0 +1,39 @@
+.main-container {
+    display: flex;
+    margin-top: 50px;
+    width: 400px;
+    justify-content: center;
+}
+
+.form-container {
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.form-container input {
+    display: block;
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+    width: 400px;
+}
+
+.form-container input[type=email],
+.form-container input[type=password],
+.form-container input[type=submit],
+.form-container input[type=text] {
+    border: none;
+    outline: 1px solid rgb(242, 186, 180);
+}
+
+.create-account {
+    color: orangered;
+    cursor: pointer;
+}
+
+.goToRegister {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}

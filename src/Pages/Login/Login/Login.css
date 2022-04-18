@@ -1,6 +1,7 @@
 .main-container {
     display: flex;
     margin-top: 50px;
+    width: 400px;
     justify-content: center;
 }
 
@@ -23,4 +24,15 @@
 .form-container input[type=submit] {
     border: none;
     outline: 1px solid rgb(242, 186, 180);
+}
+
+.create-account {
+    color: orangered;
+    cursor: pointer;
+}
+
+.goToLogin {
+    display: block;
+    text-decoration: none;
+    text-align: center;
 }
